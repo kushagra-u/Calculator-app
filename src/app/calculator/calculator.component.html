@@ -1,0 +1,41 @@
+<div class="cal">
+    <div class="shado">
+        <div class="display">
+            <div class="heading"><h2>Calculator</h2></div>
+            <input type="text" class="input" [(ngModel)]="toshow">
+        </div>
+        <div class="buttons">
+            <div class="btnLine">
+                <button (click)="clear()" class="button red">C</button>
+                <button (click)="back()" class="button yellow">&#9003;</button>
+                <button (click)="writeinput('%')" class="button orange">%</button>
+                <button (click)="writeinput('/')" class="button orange">&#xF7;</button>
+            </div>
+            <div class="btnLine">
+                <button (click)="writeinput('7')" class="button lightblue">7</button>
+                <button (click)="writeinput('8')" class="button lightblue">8</button>
+                <button (click)="writeinput('9')" class="button lightblue">9</button>
+                <button (click)="writeinput('*')" class="button orange">X</button>
+            </div>
+            <div class="btnLine">
+                <button (click)="writeinput('4')" class="button lightblue">4</button>
+                <button (click)="writeinput('5')" class="button lightblue">5</button>
+                <button (click)="writeinput('6')" class="button lightblue">6</button>
+                <button (click)="writeinput('-')" class="button orange">-</button>
+            </div>
+            <div class="btnLine">
+                <button (click)="writeinput('1')" class="button lightblue">1</button>
+                <button (click)="writeinput('2')" class="button lightblue">2</button>
+                <button (click)="writeinput('3')" class="button lightblue">3</button>
+                <button (click)="writeinput('+')" class="button orange">+</button>
+            </div>
+            <div class="btnLine">
+                <button (click)="writeinput('00')" class="button lightblue">00</button>
+                <button (click)="writeinput('0')" class="button lightblue">0</button>
+                <button (click)="writeinput('.')" class="button lightblue">.</button>
+                <button (click)="equal()" class="button greenyellow">=</button>
+            </div>
+        </div>
+    </div>
+</div>
+

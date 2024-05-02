@@ -1,0 +1,92 @@
+h2{
+    text-align: center;
+    width: 166px;
+    font-style: italic;
+    font-weight: 800;
+    color: darkmagenta;
+    box-shadow: 0 0 15px #c5ce13, inset 0 0 10px rgb(203 142 142 / 50%);
+}
+.heading{
+    justify-content: center;
+    display: flex;
+}
+.shado{
+    box-shadow: 19px 10px 30px #bed50d;
+   
+}
+.input {
+    height: 50%;
+    width: 100%;
+    border: none;
+    color: blue;
+    font-size:xx-large;
+    font-style: italic;
+    text-align: right;
+}
+
+.result {
+    height: 49%;
+}
+
+.cal {
+    width: 350px;
+    height: 450px;
+    border: 3px solid black;
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-top: 14px;
+    border-radius: 15px;
+}
+
+.display {
+    width: 345px;
+    height: 120px;
+    background-color: azure;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+
+.buttons {
+    width: 345px;
+    height: 320px;
+    padding: auto;
+}
+
+.btnLine {
+    width: auto;
+    height: 64.9px;
+    justify-content: center;
+    display: flex;
+    padding: 2px;
+}
+
+button {
+    height: 54px;
+    width: 80px;
+    text-align: center;
+    margin: 3px;
+    color: blue;
+    border-radius: 10px;
+    font-size: 35px;
+    box-shadow: 0 0 15px yellow,
+    inset 0 0 10px rgba(11, 3, 3, 0.5);
+}
+button:hover{
+    background-color: green;
+}
+.orange{
+    background-color: aqua;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.greenyellow{
+    background-color: fuchsia;
+}

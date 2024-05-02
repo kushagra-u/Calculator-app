@@ -1,0 +1,14 @@
+.white{
+    color: white !important;
+    font-size: x-large;
+    box-shadow: 0 0 15px #9C27B0, inset 0 0 10px rgb(203 142 142 / 50%);
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    background-color: midnightblue;
+    color: cyan;
+    text-align: center;
+}
